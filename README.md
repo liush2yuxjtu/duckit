@@ -44,16 +44,6 @@ git clone https://github.com/liush2yuxjtu/duckit.git ~/.claude/skills/duckit
 - 📄 **纯 markdown 两个文件**（`SKILL.md` + `references/examples.md`），看得懂、改得动。
 - 🐣 **零依赖**，无需 npm / pip / cargo。
 
-## 三档音量（懒得读？跳过这节）
-
-| 触发 | 适合 | 行为 |
-|------|------|------|
-| `/duckit` | 默认 | 开头 `🦆 嘎嘎！`，每段 1–2 个 `嘎`，≤ 60% 源文长度 |
-| `/duckit lite` | 上班摸鱼装严肃 | 不开嘎，每段 ≤1 嘎，≤ 60% |
-| `/duckit ultra` | 只想看 TL;DR | 纯 bullet，全文最多 1 嘎，≤ 30% |
-
-中文触发也吃：`鸭子讲讲`、`用鸭子解释`、`轻一点`、`压到底`、`再鸭一遍`。
-
 ## 现在就试
 
 ```bash
@@ -63,6 +53,16 @@ git clone https://github.com/liush2yuxjtu/duckit.git ~/.claude/skills/duckit
 下次让 Claude 输出长篇答复时，敲 `/duckit`，看小鸭子嘎嘎给你听。
 
 觉得有用？⭐ Star 一下 [github.com/liush2yuxjtu/duckit](https://github.com/liush2yuxjtu/duckit)，养鸭人感谢你。
+
+## 进阶：三档音量（先跑起来再看）
+
+| 触发 | 适合 | 行为 |
+|------|------|------|
+| `/duckit` | 默认 | 开头 `🦆 嘎嘎！`，每段 1–2 个 `嘎`，≤ 60% 源文长度 |
+| `/duckit lite` | 上班摸鱼装严肃 | 不开嘎，每段 ≤1 嘎，≤ 60% |
+| `/duckit ultra` | 只想看 TL;DR | 纯 bullet，全文最多 1 嘎，≤ 30% |
+
+中文触发也吃：`鸭子讲讲`、`用鸭子解释`、`轻一点`、`压到底`、`再鸭一遍`。
 
 ## License
 
