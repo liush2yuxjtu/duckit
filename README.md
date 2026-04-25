@@ -2,6 +2,8 @@
 
 > Claude 回答 200 行，你看到第 3 行就关了？输入 `/duckit` — 中文短句、保留所有代码、可爱小鸭子讲给你听。
 
+**给 vibe coder 的**：vibe coding = 你说需求，AI 写代码，你只审不写。问题是 AI 写得多、说得也多 — 200 行回答你看不完，关键命令藏在第 137 行。duckit 是这个问题的 30 秒解药。
+
 ```
 你：           /duckit
 Claude:        🦆 嘎嘎！上一段你没看完那堆 — 鸭子帮你嚼烂了：
@@ -51,9 +53,9 @@ git clone https://github.com/liush2yuxjtu/duckit.git ~/.claude/skills/duckit
 - **保 byte-exact**：所有 `code`、命令、路径、错误串、数字、版本号 — 一字不动。
 - 三档音量自由切。
 
-## 为什么写它
+## 痛了才写
 
-vibe coding（vibe coding = 你不写代码，让 AI 写、你只负责审）时代，Claude 一段回答动辄 200 行。你滚到一半就走神。  
+Claude 一段回答动辄 200 行。你滚到一半就走神。  
 真正有用的 3 句话 + 1 个命令藏在中间。
 
 duckit = **强制压缩 + 萌化**。小鸭子比 senior engineer 好读 10 倍。代码块照旧 byte-exact，你不会丢任何一个 `--no-verify`。
