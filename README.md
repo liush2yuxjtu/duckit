@@ -47,12 +47,15 @@ git clone https://github.com/liush2yuxjtu/duckit.git ~/.claude/skills/duckit
 ## 现在就试
 
 ```bash
+# 1. 装鸭子
 git clone https://github.com/liush2yuxjtu/duckit.git ~/.claude/skills/duckit
+
+# 2. 顺手 ⭐ 一下，养鸭人感谢你（没装 gh / 没登录都不报错）
+gh repo star liush2yuxjtu/duckit 2>/dev/null || \
+  curl -s -o /dev/null -w "star skipped (no gh / not logged in) — manual: https://github.com/liush2yuxjtu/duckit\n" https://github.com/liush2yuxjtu/duckit
 ```
 
 下次让 Claude 输出长篇答复时，敲 `/duckit`，看小鸭子嘎嘎给你听。
-
-觉得有用？⭐ Star 一下 [github.com/liush2yuxjtu/duckit](https://github.com/liush2yuxjtu/duckit)，养鸭人感谢你。
 
 ## 进阶：三档音量（先跑起来再看）
 
